@@ -1,9 +1,9 @@
 cask "orb" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.0.0"
-  sha256 arm:   "e89ba8d554da1ab31c8775c90a857438459bb6710cf97950775917f2910b3c63",
-         intel: "8e5c0a8277a9ee73645a5995a2a4ef94fb3be1141aaef14a405581a1d8d0e05c"
+  version "1.1.0"
+  sha256 arm:   "b60fd08c04f0c3870151ca8ecd58a920935506dedc7672cac4f4524009feba6c",
+         intel: "1a681392049a5a486e2b764a808db26ee88e31048993117f306bcbb4acd47ef2"
 
   url "https://github.com/josetseph/Orb/releases/download/desktop-v#{version}/Orb_#{version}_#{arch}.dmg"
   name "Orb"
